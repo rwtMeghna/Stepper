@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./App.css"
 
 // import FormDetail from './FormDetail';
-import Userform from './UserForm';
+import UserForm from './UserForm';
 import FormDetail from './FormDetail';
 const App = () => {
 
@@ -104,7 +104,7 @@ console.log(formData);
 
 //       </form>
 
-<Userform
+<UserForm
 handleSubmit={handleSubmit} 
  forms={forms} 
   index ={index}
